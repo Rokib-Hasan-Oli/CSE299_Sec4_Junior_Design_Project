@@ -14,7 +14,7 @@ app.use(cors())              // Using CORS middleware to allow cross-origin requ
 app.use(express.json())       // Using express.json() middleware to parse JSON request bodies
 app.use(clerkMiddleware())    // Using Clerk middleware for authentication
 
-app.get("/api/clerk",clerkWebhooks)  // Defining a route for Clerk webhooks and using the clerkWebhooks controller
+app.use("/api/clerk",clerkWebhooks)  // Defining a route for Clerk webhooks and using the clerkWebhooks controller
 
 app.get('/', (req, res) => res.send('Server API is working')) // Defining a simple route to check if the API is working
 
