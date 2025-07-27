@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import { useAppContext } from '../context/AppContext'
@@ -8,6 +9,7 @@ const MyBookings = () => {
 
   const {axios, getToken, user} = useAppContext()
   const [bookings, setBookings] = useState([])
+  const navigate = useNavigate()
 
   const fetchUserBookings = async () => {
     try {
@@ -20,6 +22,11 @@ const MyBookings = () => {
     } catch (error) {
       toast.error(error.message)
     }
+  }
+
+  const handlePayment = (bookingId) => {
+    // Navigate to payment method page with booking ID
+    navigate(`/payment/${bookingId}`)
   }
 
   useEffect(()=>{
@@ -86,7 +93,7 @@ const MyBookings = () => {
                       </p>
                     </div>
                     {!booking.isPaid && (
-                      <button className='px-6 py-2 bg-orange-500 text-white text-sm font-medium rounded-full hover:bg-orange-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5'>
+                      <button onClick={() => handlePayment(booking._id)} className='px-6 py-2 bg-orange-500 text-white text-sm font-medium rounded-full hover:bg-orange-600 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5'>
                         Pay Now
                       </button>
                     )}

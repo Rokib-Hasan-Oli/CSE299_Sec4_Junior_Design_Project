@@ -84,7 +84,7 @@ const Dashboard = () => {
 
                             <td className='py-3 px-4 text-shadow-gray-700 border-t border-gray-300
                             max-sm:hidden'>
-                                {item.room.roomType}
+                                {item.tour.tourType}
                             </td>
 
                             <td className='py-3 px-4 text-shadow-gray-700 border-t border-gray-300

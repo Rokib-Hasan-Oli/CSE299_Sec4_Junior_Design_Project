@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 
 const PackageCard = ({ tour, index }) => {
   return (
-    <Link to={'/tours/' + tour._id} onClick={() => scrollTo(0,0)} key={tour._id}
+    <Link to={'/packages/' + tour._id} onClick={() => scrollTo(0,0)} key={tour._id}
     className='relative max-w-70 w-full rounded-xl overflow-hidden bg-white text-gray-500/90 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:shadow-[0px_8px_8px_rgba(0,0,0,0.05)]'
     >
         <img src={tour.images[0]} alt="" />
