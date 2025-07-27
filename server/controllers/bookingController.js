@@ -1,10 +1,7 @@
-//Function to check Availability of Tour
-
 import transporter from "../configs/nodemailer.js";
 import Booking from "../models/Booking.js";
 import Package from "../models/Package.js";
 import Tour from "../models/Tour.js";
-import Stripe from 'stripe';
 
 
 const checkAvailability = async ({ ArrivalDate, DepartureDate, tour })=>{
@@ -191,6 +188,32 @@ export const createBooking = async (req, res) => {
                     } 
                 }
 
+            // Confirm payment API
+// POST /api/bookings/confirm-payment
+export const confirmPayment = async (req, res) => {
+  try {
+    const { bookingId, paymentMethod } = req.body;
+
+    // Find the booking
+    const booking = await Booking.findById(bookingId);
+    if (!booking) {
+      return res.status(404).json({ success: false, message: "Booking not found" });
+    }
+
+    // Mark as paid and update payment method
+    booking.isPaid = true;
+    booking.paymentMethod = paymentMethod || "Unknown";
+
+    // You can optionally update booking status here, e.g.:
+    booking.status = "confirmed";
+
+    await booking.save();
+
+    res.json({ success: true, message: "Payment confirmed and booking updated!" });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message || "Could not confirm payment" });
+  }
+};
 
     
 
