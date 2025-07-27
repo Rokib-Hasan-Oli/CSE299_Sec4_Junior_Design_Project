@@ -191,46 +191,6 @@ export const createBooking = async (req, res) => {
                     } 
                 }
 
-    export const stripePayment = async (req, res)=>{
-        try {
-            const { bookingId } = req.body;
-    
-            const booking = await Booking.findById(bookingId);
-            const tourData = await Tour.findById(booking.tour).populate('existingPackage');
-            const totalPrice = booking.totalPrice;
-            const { origin } = req.headers;
-    
-            const stripeInstance = new Stripe(process.env.STRIPE_SECRET_KEY);
-            const line_items = [
-                {
-                    price_data:{
-                        currency: "usd",
-                        product_data:{
-                            name: tourData.existingPackage.name,
-                        },
-                        unit_amount: totalPrice * 100
-                    },
-    
-                    quantity: 1,
-                }
-            ]
-    
-            //Create Checkout Session
-    
-            const session = await stripeInstance.checkout.sessions.create({
-                line_items,
-                mode: "payment",
-                success_url: `${origin}/loader/my-bookings`,
-                cancel_url: `${origin}/my-bookings`,
-                metadata:{
-                    bookingId,
-                }
-            })
-            res.json({success: true, url: session.url})
-    
-        } catch (error) {
-            res.json({success: false, message: "Payment Failed"})
-        }
-    }
+
     
 
