@@ -41,6 +41,7 @@ import bKash from './bKash.svg'
 import Nagad from './Nagad.svg'
 import Bank from './Bank.svg'
 import Card from './Card.svg'
+import ChatBot from './ChatBot.svg'
 
 export const assets = {
     logo,
@@ -79,6 +80,7 @@ export const assets = {
     Nagad,
     Bank,
     Card,
+    ChatBot,
 }
 
 export const cities = [
@@ -215,7 +217,7 @@ export const userBookingsDummyData = [
         "totalPrice": 12999,
         "guests": 2,
         "status": "pending",
-        "paymentMethod": "Stripe",
+        "paymentMethod": "bkash",
         "isPaid": true,
         "createdAt": "2025-04-10T06:42:01.529Z",
         "updatedAt": "2025-04-10T06:43:54.520Z",
