@@ -16,6 +16,8 @@ import { useAppContext } from './context/AppContext';
 import Loader from './components/Loader';
 import PaymentMethod from './pages/PaymentMethod';
 import ChatBot from './components/ChatBot';
+import Experience from './pages/Experience';
+import About from './pages/About';
 
 
 const App = () => {
@@ -43,6 +45,8 @@ const App = () => {
            <Route path="add-package" element={<AddPackage/>}/>
            <Route path="list-package" element={<ListPackage/>}/>
         </Route>  
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/about" element={<About />} />
       </Routes>
 
       </div>
