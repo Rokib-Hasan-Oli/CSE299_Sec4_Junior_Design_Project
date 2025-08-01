@@ -15,6 +15,7 @@ import {Toaster} from 'react-hot-toast';
 import { useAppContext } from './context/AppContext';
 import Loader from './components/Loader';
 import PaymentMethod from './pages/PaymentMethod';
+import ChatBot from './components/ChatBot';
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
 
       </div>
       <Footer />
+      <ChatBot/>
     </div>
   )
 }
