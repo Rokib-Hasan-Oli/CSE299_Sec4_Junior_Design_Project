@@ -167,9 +167,7 @@ GHURBO is a **full-stack travel platform** built for Bangladesh. Travelers can d
   <img src="image/Package Listings.png" alt="Package Listings" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
   <img src="image/Add Package.png" alt="Add Package" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
   <img src="image/Tour Package Seller Can Sell pakage after get Register.jpg" alt="Package Registration" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/ChatBot1.jpg" alt="Chatbot 1" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/ChatBot2.jpg" alt="Chatbot 2" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/ChatBot3.jpg" alt="Chatbot 3" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
+  <img src="image/ChatBot.jpg" alt="Chatbot" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
   <img src="image/Verification code Email For Login or Delete account.jpg" alt="Email Verification" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
   <img src="image/createBooking Email.jpg" alt="Booking Confirmation Email" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
   <img src="image/Experience.png" alt="Experience Page" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
@@ -209,9 +207,7 @@ GHURBO is a **full-stack travel platform** built for Bangladesh. Travelers can d
 <img src="image/Tour Package Seller Can Sell pakage after get Register.jpg" alt="Package Registration">
 
 ### AI Chatbot
-<img src="image/ChatBot1.jpg" alt="AI Chatbot Step 1">
-<img src="image/ChatBot2.jpg" alt="AI Chatbot Step 2">
-<img src="image/ChatBot3.jpg" alt="AI Chatbot Step 3">
+<img src="image/ChatBot.jpg" alt="AI Chatbot">
 
 ### Email Verification
 <img src="image/Verification code Email For Login or Delete account.jpg" alt="Email Verification">
