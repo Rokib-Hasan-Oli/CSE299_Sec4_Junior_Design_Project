@@ -1,19 +1,28 @@
 <p align="center"> 
-  <img width="250" height="280" src="image/NSU_Logo.png">
+  <img width="300" src="image/Ghurbo Logo Gold.svg" alt="GHURBO Logo">
+</p>   
+
+<h1 align="center">GHURBO – Smart Tour Package Platform for Bangladesh</h1>
+
+<p align="center">
+  <a href="https://ghurbotravel.vercel.app/" target="_blank">
+    🌐 Visit Our Live Website
+  </a>
 </p>
 
-<h1 align="center">Project Name: GHURBO</h1>
-<h2 align ="center">Course Number: CSE 299<br>
+<h2 align="center">
+Course: CSE 299 Junior Design <br>
 Section: 4 <br>
-Semester: Summer 2025<br><br>
-Faculty Name: Mohammad Shifat-E-Rabbi</h2>
+Semester: Summer 2025 <br><br>
+Faculty: Mohammad Shifat-E-Rabbi
+</h2>
 
 <h3 align="center">
-Student Name: Md. Rakibul Hasan<br>
-Student Name: Md. Rokib Hasan Oli<br>
-Student Name: Md. Nafees Ahommed<br>
-North South University, Dhaka
-</h3><br><br><br>
+Student Name: Md Nafees Ahommed – ID: 2111934642 <br>
+Student Name: Md Rokib Hasan Oli – ID: 2211950642 <br>
+Student Name: Md Rakibul Hasan – ID: 2212346042 <br>
+Date Prepared: August 2025
+</h3>
 
 ---
 
@@ -21,180 +30,110 @@ North South University, Dhaka
 1. [Introduction](#introduction)  
 2. [Features](#features)  
 3. [Technology Stack](#technology-stack)  
-4. [System Architecture](#system-architecture)  
-5. [UI Screenshots](#ui-screenshots)  
-6. [Local Setup](#local-setup)  
-7. [Environment Variables](#environment-variables)  
-8. [Run & Scripts](#run--scripts)  
-9. [API Overview](#api-overview)  
-10. [Roadmap](#roadmap)  
-11. [Conclusion](#conclusion)  
+4. [Business Plan / Monetization](#business-plan--monetization)  
+5. [Project Screenshots](#project-screenshots)  
+   - [Home Page](#home-page)  
+   - [Tour Packages](#tour-packages)  
+   - [Package Details & Booking](#package-details--booking)  
+   - [Check Availability](#check-availability)  
+   - [Book Now](#book-now)  
+   - [My Bookings](#my-bookings)  
+   - [Dashboard (Package Owner)](#dashboard-package-owner)  
+   - [Package Listings](#package-listings)  
+   - [Add Package](#add-package)  
+   - [Package Registration Form](#package-registration-form)  
+   - [AI Chatbot](#ai-chatbot)  
+   - [Email Verification](#email-verification)  
+   - [Booking Confirmation Email](#booking-confirmation-email)  
+   - [Experience Page](#experience-page)  
+   - [About Page](#about-page)  
+6. [Conclusion](#conclusion)  
 
 ---
 
-## 1) Introduction
-**GHURBO** is a modern MERN-stack tour package platform designed as a capstone project for **CSE299 Junior Design, Section 4 at North South University**.  
-
-It simplifies trip planning by connecting travelers with curated experiences across Bangladesh and offers a powerful admin dashboard for tour operators to manage packages, bookings, and revenue.  
-
-The project incorporates:
-- Practical booking features  
-- User-friendly UI/UX  
-- Real-time package filtering & search  
-- Secure authentication & media handling  
+## 1. Introduction
+GHURBO is a **full-stack travel platform** built for Bangladesh. It allows travelers to explore curated tour packages, book trips securely, and interact with an AI-powered travel assistant. The platform bridges travelers with tour providers, hotels, and guides, offering a seamless booking experience.
 
 ---
 
-## 2) Features
-- **Curated Tour Packages** – Browse, filter, and book with real-time availability.  
-- **Advanced Filters** – Price range, trip type, sorting (low-high, new-first).  
-- **Package Details & Booking** – Image gallery, amenities, date/guest selector, availability check.  
-- **Experience Page** – Destination highlights with “Explore Now” navigation.  
-- **Owner Dashboard** – KPIs (bookings, revenue), recent bookings, and package toggles.  
-- **Package Management** – Add/edit packages with images, price, type, amenities.  
-- **Authentication** – Clerk-based secure login/signup and role-based access.  
-- **Media & Email** – Cloudinary for storage, Nodemailer for notifications.  
+## 2. Features
+- **🎯 Curated Tour Packages** – Filter by budget, location, and travel dates.  
+- **💎 Exclusive Offers** – Special discounts and seasonal promotions.  
+- **🤖 AI Travel Assistant** – Multi-language chatbot for instant help.  
+- **📊 Package Owner Dashboard** – Manage packages, bookings, and analytics.  
+- **🔒 Secure Booking & Payments** – Reliable transactions with email confirmations.  
+- **📱 Mobile-Friendly Design** – Works smoothly on all devices.  
 
 ---
 
-## 3) Technology Stack
-
-**Frontend**  
-- React (Vite)  
-- React Router DOM  
-- Tailwind CSS  
-- Clerk Authentication  
-
-**Backend**  
-- Node.js, Express.js  
-- MongoDB & Mongoose  
-- Cloudinary, Nodemailer  
-
-**Deployment**  
-- Vercel  
+## 3. Technology Stack
+**Frontend:** React.js, Vite, Tailwind CSS, React Router Dom  
+**Backend:** Node.js, Express.js, MongoDB  
+**Authentication & Tools:** Clerk, Cloudinary, Nodemailer, Brevo, Vercel Deployment  
 
 ---
 
-## 4) System Architecture
-```
-GHURBO Project
-├── client/
-│   └── src/
-│       ├── components/      # UI Components
-│       ├── context/         # AppContext for state management
-│       └── pages/           # Pages (Home, TourPackages, PackageDetails, Owner Dashboard)
-├── server/
-│   ├── configs/             # db, nodemailer, cloudinary configs
-│   ├── controllers/         # booking, package, tour, user controllers
-│   ├── middleware/          # auth & upload middleware
-│   ├── models/              # Mongoose schemas
-│   └── routes/              # API routes
-```
+## 4. Business Plan / Monetization
+GHURBO starts as a free platform to build trust and user base. Monetization channels include:
+- Partner listings (hotels, guides, experiences)  
+- Premium package promotions  
+- Service fees per booking  
+- Subscription plans for tour providers  
 
 ---
 
-## 5) UI Screenshots
-> Store screenshots in `docs/screenshots/` or adjust paths as needed.
+## 5. Project Screenshots
 
-- Home Page  
-- Tour Packages  
-- Package Details & Booking  
-- Experiences  
-- About Page  
-- Dashboard (Owner)  
-- Add Package Page  
-- Package Listings  
+### Home Page
+<img src="image/Home.png" alt="Home Page">
 
----
+### Tour Packages
+<img src="image/Tour Packages.png" alt="Tour Packages">
 
-## 6) Local Setup
-```bash
-# Clone repo
-git clone <your-repo-url> ghurbo
-cd ghurbo
+### Package Details & Booking
+<img src="image/Tour Package info and Booking.png" alt="Package Details & Booking">
 
-# Install dependencies
-cd client && npm install
-cd ../server && npm install
-```
+### Check Availability
+<img src="image/Check Availability.png" alt="Check Availability">
 
----
+### Book Now
+<img src="image/Book Now.png" alt="Book Now">
 
-## 7) Environment Variables
+### My Bookings
+<img src="image/My Bookings.png" alt="My Bookings">
 
-**client/.env**
-```
-VITE_API_BASE_URL=http://localhost:5000
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_xxx
-VITE_CLERK_SIGN_IN_URL=/sign-in
-VITE_CLERK_SIGN_UP_URL=/sign-up
-```
+### Dashboard (Package Owner)
+<img src="image/Dashboard.png" alt="Dashboard">
 
-**server/.env**
-```
-PORT=5000
-NODE_ENV=development
-MONGODB_URI=mongodb+srv://<user>:<pass>@cluster/db
-CLERK_SECRET_KEY=sk_test_xxx
-CLOUDINARY_CLOUD_NAME=xxx
-CLOUDINARY_API_KEY=xxx
-CLOUDINARY_API_SECRET=xxx
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=you@example.com
-SMTP_PASS=your_app_password
-EMAIL_FROM=GHURBO <you@example.com>
-CLIENT_URL=http://localhost:5173
-```
+### Package Listings
+<img src="image/Package Listings.png" alt="Package Listings">
+
+### Add Package
+<img src="image/Add Package.png" alt="Add Package">
+
+### Package Registration Form
+<img src="image/Tour Package Seller Can Sell pakage after get Register.jpg" alt="Package Registration">
+
+### AI Chatbot
+<img src="image/ChatBot1.jpg" alt="AI Chatbot Step 1">
+<img src="image/ChatBot2.jpg" alt="AI Chatbot Step 2">
+<img src="image/ChatBot3.jpg" alt="AI Chatbot Step 3">
+
+### Email Verification
+<img src="image/Verification code Email For Login or Delete account.jpg" alt="Email Verification">
+
+### Booking Confirmation Email
+<img src="image/createBooking Email.jpg" alt="Booking Confirmation Email">
+
+### Experience Page
+<img src="image/Experience.png" alt="Experience Page">
+
+### About Page
+<img src="image/About.png" alt="About Page">
 
 ---
 
-## 8) Run & Scripts
-```bash
-# Run backend
-cd server
-npm run dev
-
-# Run frontend
-cd client
-npm run dev
-```
+## 6. Conclusion
+GHURBO is more than just a project – it’s a functional travel platform tailored to **Bangladesh’s tourism industry**. With AI assistance, curated packages, and secure booking, it provides value to both travelers and tour providers. The clean design, robust backend, and scalability make it ready for real-world deployment.
 
 ---
-
-## 9) API Overview
-**Auth / Users**
-- `POST /users/webhooks/clerk`
-- `GET /users/me`
-
-**Packages**
-- `GET /packages`
-- `GET /packages/:id`
-- `POST /packages` (owner)
-- `PATCH /packages/:id`
-- `PATCH /packages/:id/toggle`
-- `DELETE /packages/:id`
-
-**Tours**
-- `GET /tours`
-- `GET /tours/:id`
-
-**Bookings**
-- `POST /bookings`
-- `GET /bookings/my`
-- `GET /bookings/owner`
-
----
-
-## 10) Roadmap
-- Add Stripe/SSLCOMMERZ integration  
-- Owner analytics dashboard  
-- Wishlist & traveler reviews  
-- Multilingual support (Bangla/English)  
-- Advanced security features  
-
----
-
-## 11) Conclusion
-GHURBO merges a clean traveler booking experience with an intuitive owner management system.  
-Built using a modern MERN stack and supporting services like Clerk and Cloudinary, it’s production-ready and highly scalable.  
