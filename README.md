@@ -16,7 +16,7 @@
 </h2>
 
 <h3 align="center">
-  Md Nafees Ahommed — ID: 2111934642 · Md Rokib Hasan Oli — ID: 2211950642 · Md Rakibul Hasan — ID: 2212346042<br/>
+  Md Nafees Ahommed — ID: 2111934642 <br/> Md Rokib Hasan Oli — ID: 2211950642 <br/> Md Rakibul Hasan — ID: 2212346042<br/>
   Date Prepared: August 2025
 </h3>
 
@@ -156,23 +156,88 @@ GHURBO is a **full-stack travel platform** built for Bangladesh. Travelers can d
 
 ### Gallery View
 <!-- Clean, responsive horizontal gallery (works on GitHub) -->
-<div style="display:flex; gap:12px; overflow-x:auto; padding:6px 2px; scroll-snap-type:x mandatory;">
-  <img src="image/Home.png" alt="Home" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Tour Packages.png" alt="Tour Packages" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Tour Package info and Booking.png" alt="Package Details" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Check Availability.png" alt="Check Availability" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Book Now.png" alt="Book Now" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/My Bookings.png" alt="My Bookings" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Dashboard.png" alt="Dashboard" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Package Listings.png" alt="Package Listings" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Add Package.png" alt="Add Package" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Tour Package Seller Can Sell pakage after get Register.jpg" alt="Package Registration" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/ChatBot.jpg" alt="Chatbot" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Verification code Email For Login or Delete account.jpg" alt="Email Verification" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/createBooking Email.jpg" alt="Booking Confirmation Email" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/Experience.png" alt="Experience Page" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
-  <img src="image/About.png" alt="About Page" style="height:340px; border-radius:12px; box-shadow:0 4px 18px rgba(0,0,0,.15); scroll-snap-align:center;">
+<div align="center">
+  <h4>🖼️ Complete Application Showcase</h4>
+  <em>Swipe or scroll to explore all features</em>
 </div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="image/Home.png" alt="Home Page" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Home Page</strong>
+      </td>
+      <td align="center">
+        <img src="image/Tour%20Packages.png" alt="Tour Packages" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Tour Packages</strong>
+      </td>
+      <td align="center">
+        <img src="image/Tour%20Package%20info%20and%20Booking.png" alt="Package Details" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Package Details</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image/Check%20Availability.png" alt="Check Availability" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Check Availability</strong>
+      </td>
+      <td align="center">
+        <img src="image/Book%20Now.png" alt="Book Now" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Book Now</strong>
+      </td>
+      <td align="center">
+        <img src="image/My%20Bookings.png" alt="My Bookings" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>My Bookings</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image/Dashboard.png" alt="Provider Dashboard" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Provider Dashboard</strong>
+      </td>
+      <td align="center">
+        <img src="image/Package%20Listings.png" alt="Package Listings" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Package Listings</strong>
+      </td>
+      <td align="center">
+        <img src="image/Add%20Package.png" alt="Add Package" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Add Package</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image/Tour%20Package%20Seller%20Can%20Sell%20pakage%20after%20get%20Register.jpg" alt="Package Registration" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Package Registration</strong>
+      </td>
+      <td align="center">
+        <img src="image/ChatBot.jpg" alt="AI Chatbot" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>AI Chatbot</strong>
+      </td>
+      <td align="center">
+        <img src="image/Verification%20code%20Email%20For%20Login%20or%20Delete%20account.jpg" alt="Email Verification" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Email Verification</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="image/createBooking%20Email.jpg" alt="Booking Email" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Booking Confirmation</strong>
+      </td>
+      <td align="center">
+        <img src="image/Experience.png" alt="Experience Page" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>Experience Page</strong>
+      </td>
+      <td align="center">
+        <img src="image/About.png" alt="About Page" width="280" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+        <br/><strong>About Page</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 [▲ Back to top](#-table-of-contents)
 
