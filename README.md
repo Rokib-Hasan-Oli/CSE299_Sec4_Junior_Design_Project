@@ -111,22 +111,22 @@ GHURBO is a **full-stack travel platform** built for Bangladesh. Travelers can d
       </td>
       <td align="center" width="120">
         <a href="https://clerk.com/" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/121480667?s=200&v=4" width="48" alt="Clerk"/><br/>Clerk
+          <img width="48" height="48" alt="Clerk" src="https://github.com/user-attachments/assets/e62e494b-6ef7-4d39-bc3b-3ec1eabe2809" /><br/>Clerk
         </a>
       </td>
       <td align="center" width="120">
         <a href="https://cloudinary.com/" target="_blank">
-          <img src="https://res.cloudinary.com/cloudinary-marketing/images/f_auto,q_auto/w_256/v1708628982/website-2021/brand/cloudinary_icon_for_white_bg/cloudinary_icon_for_white_bg.png" width="48" alt="Cloudinary"/><br/>Cloudinary
+          <img width="48" height="48" alt="Cloudinary" src="https://github.com/user-attachments/assets/0c402915-a034-44a2-b39d-5ebead0285ef" /><br/>Cloudinary
         </a>
       </td>
       <td align="center" width="120">
         <a href="https://nodemailer.com/" target="_blank">
-          <img src="https://www.vectorlogo.zone/logos/nodemailer/nodemailer-icon.svg" width="48" alt="Nodemailer"/><br/>Nodemailer
+          <img width="48" height="48" alt="Nodemailer" src="https://github.com/user-attachments/assets/d035d490-54e8-4175-ab9b-27767a1ccd27" /><br/>Nodemailer
         </a>
       </td>
       <td align="center" width="120">
         <a href="https://www.brevo.com/" target="_blank">
-          <img src="https://www.vectorlogo.zone/logos/sendinblue/sendinblue-icon.svg" width="48" alt="Brevo"/><br/>Brevo
+          <img width="48" height="48" alt="Brevo" src="https://github.com/user-attachments/assets/7f56bf68-8ca9-4a0d-abac-6295d364defe" /><br/>Brevo
         </a>
       </td>
       <td align="center" width="120">
