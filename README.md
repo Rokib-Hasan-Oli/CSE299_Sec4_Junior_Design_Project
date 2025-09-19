@@ -89,7 +89,7 @@ GHURBO is a **full-stack travel platform** built for Bangladesh. Travelers can d
       </td>
       <td align="center" width="120">
         <a href="https://reactrouter.com/" target="_blank">
-          <img src="<svg xmlns="https://www.svgrepo.com/show/354262/react-router.svg" width="48" alt="React Router"/><br/>React Router
+          <img width="48" height="48" alt="React Router" src="https://github.com/user-attachments/assets/76fec88a-6102-4c04-bc9a-c52313695b94" /><br/>React Router
         </a>
       </td>
       <td align="center" width="120">
